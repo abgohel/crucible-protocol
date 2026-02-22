@@ -36,39 +36,39 @@ Deploys a single devil's advocate to catch obvious flaws immediately.
 Executes the full 5-agent protocol. Built for decisions that actually matter.
 
 ```text
-┌─────────────────────────────────────────────────────────┐
-│  ROUND 1: STEELMAN                                      │
-│  └── Makes the STRONGEST case FOR your idea             │
-│      (Ensures attackers target the best version,        │
-│      not a strawman)                                    │
-└─────────────────────────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────┐
-│  ROUND 2: ADVERSARIAL ASSAULT (Parallel)                │
-│  ├── 🔍 Skeptic: Logic flaws, edge cases, assumptions   │
-│  ├── ⚙️ Pragmatist: Reality check, resources, timeline  │
-│  └── 😈 Contrarian: Argues the exact opposite position  │
-└─────────────────────────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────┐
-│  ROUND 3: FRIENDLY FIRE                                 │
-│  └── Agents critique EACH OTHER'S critiques             │
-│      (Removes weak attacks, strengthens valid ones)     │
-└─────────────────────────────────────────────────────────┘
-                          │
-                          ▼
-┌─────────────────────────────────────────────────────────┐
-│  ROUND 4: SYNTHESIS & VERDICT                           │
-│  └── Synthesizer weighs all inputs and renders judgment │
-│                                                         │
-│  VERDICTS:                                              │
-│  💎 DIAMOND — Ship it.                                  │
-│  🔧 REFINED — Valid, but requires changes.              │
-│  ⚠️ WEAK    — Proceed with extreme caution.             │
-│  🪦 KILLED  — Fatal flaw discovered; pivot or abandon.  │
-└─────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│  ROUND 1: STEELMAN                                            │
+│  └── Makes the STRONGEST case FOR your idea                   │
+│      (Ensures attackers target the best version,              │
+│      not a strawman)                                          │
+└───────────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌───────────────────────────────────────────────────────────────┐
+│  ROUND 2: ADVERSARIAL ASSAULT (Parallel)                      │
+│  ├── Skeptic: Logic flaws, edge cases, assumptions            │
+│  ├── Pragmatist: Reality check, resources, timeline           │
+│  └── Contrarian: Argues the exact opposite position           │
+└───────────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌───────────────────────────────────────────────────────────────┐
+│  ROUND 3: FRIENDLY FIRE                                       │
+│  └── Agents critique EACH OTHER'S critiques                   │
+│      (Removes weak attacks, strengthens valid ones)           │
+└───────────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌───────────────────────────────────────────────────────────────┐
+│  ROUND 4: SYNTHESIS & VERDICT                                 │
+│  └── Synthesizer weighs all inputs and renders judgment       │
+│                                                               │
+│  VERDICTS:                                                    │
+│  [DIAMOND] - Ship it.                                         │
+│  [REFINED] - Valid, but requires changes.                     │
+│  [WEAK]    - Proceed with extreme caution.                    │
+│  [KILLED]  - Fatal flaw discovered; pivot or abandon.         │
+└───────────────────────────────────────────────────────────────┘
 
 ```
 
@@ -159,7 +159,3 @@ python crucible.py "Your idea here"
 **Repository:** [github.com/abgohel/crucible-protocol](https://github.com/abgohel/crucible-protocol)
 
 *(Based on @teej_m's insight: asking AI to critique its own solutions consistently produces better outputs. The Crucible operationalizes this into a repeatable, automated protocol.)*
-
----
-
-Would you like me to act as the "Quick Mode" agent and run a 10-second Crucible on one of your current ideas right now?
