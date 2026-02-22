@@ -1,5 +1,8 @@
 # 🔥 The Crucible Protocol v2
 
+[![Security: VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F94%20Clean-brightgreen)](https://www.virustotal.com/gui/url/27532596893da212f488f7f1b579c4b0348191dfdefbb05560966bb6678eac60)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Adversarial refinement for ideas. Transform rough concepts into battle-tested diamonds — or kill them mercifully.
 
 ## Quick Start
