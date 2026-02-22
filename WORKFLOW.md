@@ -92,6 +92,7 @@ When a Deep Mode cycle completes, you receive a standardized breakdown:
 > 
 > 
 > **The Diamond:** > [Your refined idea—now incorporating valid critiques]
+> 
 > **🔥 Burned:** > * [Assumption that didn't survive the pressure]
 > * [Feature that was deemed impractical]
 > 
